@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; background: #f2f6fc; margin: 0; color: #222; }
+header { background: #3a7ca5; color: #fff; padding: 2rem 0; text-align: center; }
+header h1 { margin: 0 0 0.5rem 0; font-size: 2.5rem; }
+header .year { font-size: 1.2rem; font-weight: bold; }
+main { max-width: 700px; margin: 2rem auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px #b3c6e0; padding: 2rem; }
+.gallery h2 { margin-top: 0; color: #3a7ca5; }
+.images { display: flex; gap: 1.5rem; justify-content: center; }
+.gallery-img { width: 120px; height: 120px; object-fit: cover; border-radius: 10px; cursor: pointer; box-shadow: 0 2px 8px #b3c6e0; transition: transform 0.2s; }
+.gallery-img:hover { transform: scale(1.07); }
+.lightbox { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100vw; height: 100vh; background: rgba(34, 34, 34, 0.85); justify-content: center; align-items: center; }
+.lightbox-content { max-width: 80vw; max-height: 80vh; border-radius: 10px; box-shadow: 0 2px 16px #222; }
+.lightbox .close { position: absolute; top: 30px; right: 50px; color: #fff; font-size: 2.5rem; font-weight: bold; cursor: pointer; user-select: none; }
